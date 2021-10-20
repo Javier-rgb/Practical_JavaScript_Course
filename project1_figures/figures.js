@@ -64,3 +64,64 @@ function circleArea(rad){
 // console.log("the Circle Area is: " + circleArea);
 
 console.groupEnd();
+
+// HTML Connection
+
+function squarePerimeter_JS(){
+    input = document.getElementById("squareInput");
+    value = input.value;
+
+    perimeter = squarePerimeter(value);
+    alert(perimeter);
+}
+
+function squareArea_JS(){
+    input = document.getElementById("squareInput");
+    value = input.value;
+
+    area = squareArea(value);
+    alert(area);
+}
+
+function periphery_JS(){
+    input = document.getElementById("circleInput");
+    value = input.value;
+
+    perimeter = periphery(value);
+    alert(perimeter);
+}
+
+function circleArea_JS(){
+    input = document.getElementById("circleInput");
+    value = input.value;
+
+    area = circleArea(value);
+    alert(area);
+}
+
+function trianglePerimeter_JS(){
+
+    input = document.getElementById("triangleS1");
+    side_1 = parseInt(input.value);
+
+    input = document.getElementById("triangleS2");
+    side_2 = parseInt(input.value);
+
+    input = document.getElementById("triangleBase");
+    base = parseInt(input.value);
+    
+    perimeter = trianglePerimeter(side_1, side_2, base);
+    alert(perimeter);
+}
+
+function triangleArea_JS(){
+
+    input = document.getElementById("triangleBase");
+    base = parseInt(input.value);
+    
+    input = document.getElementById("triangleHeight");
+    height = parseInt(input.value);
+
+    area = triangleArea(base, height);
+    alert(area);
+}

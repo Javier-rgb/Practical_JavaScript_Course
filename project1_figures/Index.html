@@ -7,7 +7,53 @@
     <title>Geomtry Figures ~ Platzi, Practical JS course</title>
 </head>
 <body>
-    <h1>Area & Perimeter Calculator</h1>
+    <header>
+        <h1>Area & Perimeter Calculator</h1>
+        <p>This is the first project from the Practical JavaScript Course</p>
+    </header>
+
+    <section>
+        <h2>Calculate the Square Area & Perimeter</h2>
+        <form action="">
+            <label for="squareInput">Type the Side's lenght</label>
+            
+            <input id="squareInput" type="number">
+            <button type="button" onclick="squareArea_JS()">Area</button>
+            <button type="button" onclick="squarePerimeter_JS()">Perimeter</button>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Calculate the Triangle Area & Perimeter</h2>
+        <form action="">
+            <label for="triangleS1">Type the Side 1 lenght</label>
+            <input id="triangleS1" type="number">
+
+            <label for="triangleS2">Type the Side 2 lenght</label>
+            <input id="triangleS2" type="number">
+
+            <label for="triangleBase">Type the Base lenght</label>
+            <input id="triangleBase" type="number">
+
+            <label for="triangleHeight">Type the Height lenght</label>
+            <input id="triangleHeight" type="number">
+
+            <button type="button" onclick="triangleArea_JS()">Area</button>
+            <button type="button" onclick="trianglePerimeter_JS()">Perimeter</button>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Calculate the Circle Area & Peripheri</h2>
+        <form action="">
+            <label for="squareInput">Type the Rad lenght</label>
+            
+            <input id="circleInput" type="number">
+            <button type="button" onclick="circleArea_JS()">Area</button>
+            <button type="button" onclick="periphery_JS()">Periphery</button>
+        </form>
+    </section>
+    
     <script src="./figures.js"></script>
 </body>
 </html>
