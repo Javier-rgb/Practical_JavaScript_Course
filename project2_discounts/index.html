@@ -7,6 +7,31 @@
     <title>Discounts ~ Platzi, Practical JS course</title>
 </head>
 <body>
+    <header>
+        <h1>Discounts</h1>
+        <p>This is the second project from the Practical JavaScript Course</p>
+    </header>
+
+    <section>
+        <h2>Obtain the price after applying a discount</h2>
+
+        <form action="">
+            <label for="priceInput">Type the product price</label>
+            <input id="priceInput" type="number">
+            
+            <label for="discountInput">type the discout that will be applied</label>
+            <input id="discountInput" type="number">
+
+            <button type="button" onclick="applyDiscount_JS()">
+                Price after Discount
+            </button>
+
+            <p id="result"></p>
+
+        </form>
+    </section>
+
+    <script src="./discounts.js"></script>
     
 </body>
 </html>
