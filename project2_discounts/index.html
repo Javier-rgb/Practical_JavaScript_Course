@@ -19,8 +19,14 @@
             <label for="priceInput">Type the product price</label>
             <input id="priceInput" type="number">
             
-            <label for="discountInput">type the discout that will be applied</label>
-            <input id="discountInput" type="number">
+            <label for="discountInput"></label>
+            <select id="discountInput">
+                <option value="10">-10%</option>
+                <option value="15">-15%</option>
+                <option value="20">-20%</option>
+            </select>
+
+
 
             <button type="button" onclick="applyDiscount_JS()">
                 Price after Discount
